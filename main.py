@@ -43,7 +43,7 @@ def predict():
 
 @app.route('/', methods=['GET'])
 def home():
-    return "Welcome! Please use a POST request with an image to classify."
+    return "NEW"
 
 
 if __name__ == '__main__':
